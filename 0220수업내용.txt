@@ -1,0 +1,66 @@
+*컬렉션: 여러 개의 데이터를 저장하고 관리하는 구조
+리스트, 튜플, 딕셔너리, 세트
+
+*파이참에서 . 쓰면 함수들 나오는데 사라질 경우 Ctrl + 스페이스 누르면 다시 생김
+
+*리스트 : 순서 있음, 중복가능, 요소 추가 삭제 가능 - 변경가능
+[ ] 로 표기, 대괄호 안에 내용 변경 가능, 자료형 혼합 가능
+
+# .append : 리스트 요소 추가 (맨 끝에 추가)
+#.insert(들어갈 자리, 들어갈 내용) : 리스트 요소 추가(인덱스 넣어서 중간에 추가가능)
+#.pop : 리스트의 마지막 요소가 리턴됨
+#.remove: 리스트의 특정 요소 제거
+#del 리스트명 [없앨 인덱스 번호]
+#sort(): 작은 순, 옵션으로 reverse=True 하면 큰 순
+#reverse : 정렬없이 그냥 순서를 역순으로 출력함
+#.join : 지정한 ""안의 것으로 리스트 내 요소를 결합한 것
+
+*튜플: 순서가 있지만 요소 변경 불가능 -> 변경 불가능
+
+요소가 1개만 들어갈 때는 꼭 , 찍어야함 ex) a = ("first", )
+
+*딕셔너리 : 
+
+
+백준-단계별로 풀어보기
+
+프로그래머스 - 코딩테스트 문제 - 난이도별 풀어보기
+언어 파이썬 선택해서 PCCE 기출문제 먼저 풀어보기 (공인된 문제)
+
+
+<깃허브> 버전관리, 협업, 
+설치하고 let git decide 말고 Override the defalut - Git from the command line and ~3rd 선택  그 뒤에는 use the open ssl 선택(위에 거)
+
+
+fast and merge 선택, 뒤에ㅐ도 첫번째거 , enable 선택
+
+https://sfida.tistory.com/46 블로그 참고해서 설치하기
+
+파이참 들어가서 왼쪽 하단 터미널
+오른쪽 동그란 프로필 눌러서 래퍼지토리 들어감
+new 만들기- 래퍼지토리 이름 만들기
+readme file - 설명넣기
+
+*파이참 콘솔 창- 왼쪽 메뉴들 중 터미널로 들어가서 순서대로 입력
+git init - 깃 초기화 .git 폴더가 생겨야함
+git status - 변경된 파일 확인
+git add . - 변경된 파일 포함 전체 파일을 넣어서 올려보낼 준비
+다시 git status
+
+*commit message쓸 것
+git commit -m "init: first commit" - feat:기능 추가
+git config --global user.email "allie7019@naver.com"
+git config --global user.name "jiny-01" (한번 더)
+다시 git status 쳐서 확인해보기
+git remote add origin https://github.com/jiny-01/python.git 그대로 넣기
+git push -u origin main
+git commit -m "init: first commit" 다시 쳐보기
+로그인 화면 뜸- sign with  your browser
+로그인하기
+초록색 버튼 누르기
+
+집에서 내려받고 싶을 때 ㄴgithub 들어가서 링크 복사
+파일 탐색기 들어가서 open git bash here 누르기
+cmd 까만창이 뜰 것 
+git clone 복사한 주소 입력
+
