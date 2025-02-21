@@ -97,6 +97,6 @@ email.find("@")  # => @의 index 번호찾기
 #find 와 index 차이? 없으면 index 는 오류, find 는 없으면 -1 출력
 print(email[:email.find("@")]) #슬라이싱
 
-#정담 방법2) split 사용
+#정답 방법2) split 사용
 email.split("@")
 print(email[:email.find("@")]) # @를 기준으로 앞부분까지만 분리
