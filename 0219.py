@@ -86,17 +86,5 @@ email = input("email : ") #allie7019@naver.com 에서 id 만 출력하기
 print(email.index("@"))
 email_id = (email[0:email.index("@")])
 print(f"id는 {email_id}") 
+ #앞에서부터 찾는데 해당문자의 인덱스 번호를 찾아줌
 
-#앞에서부터 찾는데 해당문자의 인덱스 번호를 찾아줌
-#@의 인덱스를 찾아야함
-
-
-#정답 방법1) find 사용하기 - 권장
-email = input("email : ")
-email.find("@")  # => @의 index 번호찾기
-#find 와 index 차이? 없으면 index 는 오류, find 는 없으면 -1 출력
-print(email[:email.find("@")]) #슬라이싱
-
-#정담 방법2) split 사용
-email.split("@")
-print(email[:email.find("@")]) # @를 기준으로 앞부분까지만 분리
