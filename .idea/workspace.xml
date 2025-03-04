@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="382c3c97-f89d-4b50-aa5d-39cac4d4f0c5" name="변경" comment="">
 <<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/number_game.py" afterDir="false" />
+=======
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/python/.idea/day4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
+>>>>>>> c141fffb26e04db890aa03a78337e2fa639f360f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_0218_finish.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_0218_finish.py" afterDir="false" />
 >>>>>>> 5c1e640b1d22417fef78a7d300e22dd5b025d60f
     </list>
@@ -31,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -44,13 +47,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
 <<<<<<< HEAD
+    "Python.number_game.executor": "Run",
+=======
+<<<<<<< HEAD
     "Python.day4.executor": "Run",
 =======
 >>>>>>> 5c1e640b1d22417fef78a7d300e22dd5b025d60f
+>>>>>>> c141fffb26e04db890aa03a78337e2fa639f360f
     "Python.py_0220.executor": "Run",
     "Python.python_0218.executor": "Run",
     "Python.python_0218_finish.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
+    "git-widget-placeholder": "main",
+=======
 <<<<<<< HEAD
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/python_0218/python/.idea",
@@ -64,6 +74,7 @@
   </component>
 =======
     "git-widget-placeholder": "main 리베이스 중",
+>>>>>>> c141fffb26e04db890aa03a78337e2fa639f360f
     "last_opened_file_path": "C:/python_1/python_0218_finish.py",
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
@@ -101,7 +112,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
