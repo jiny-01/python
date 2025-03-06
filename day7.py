@@ -57,13 +57,13 @@ while True:
 try_count += 1
 print(f"시도 횟수 : {try_count}")
 
-if correct_answer > guess:
+    if correct_answer > guess:
         print("UP")
-elif correct_answer < guess:
+    elif correct_answer < guess:
         print("DOWN")
-else:  # 정답을 맞춘 경우
+    else:
         print(f"정답입니다!! 정답 : {correct_answer}")
-
+        break
 
 # if correct_answer > guess:
 #         print("UP")

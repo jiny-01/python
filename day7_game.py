@@ -1,4 +1,5 @@
 import random
+import time
 
 choice_list = ["가위", "바위", "보"]
 user_choice = ""
@@ -24,6 +25,8 @@ while True:
 
     computer_choice = random.choice(choice_list) #random.choice -> 리스트 중 하나를 랜덤으로 선택
 
+    print("과연 승부는 ........")
+    time.sleep(2) #몇 초간격으로 뜨게 할 것인지
     if user_choice == computer_choice:
         print("무승부 입니다.")
     elif (user_choice == "가위" and computer_choice == "보") or\
