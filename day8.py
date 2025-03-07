@@ -42,7 +42,7 @@ for i, name in enumerate(a_list):
 print(eval("1+2"))
 print(eval("divmod(7,2)"))
 
-#filter()
+##filter()
 #첫 번째 인수로 함수, 두 번째 인수로 반복 가능한 데이터
 #그리고 반복 가능한 데이터의 요소 순서대로 함수를 호출 했을 때
 #리턴값이 참인 것만 묶어서 리턴
@@ -60,8 +60,8 @@ print(hex(3))
 #객체를 입력받아 고유 주솟값(레퍼런스)를 리턴하는 함수
 a = 3
 print(id(3))
-#map()
-#map은 입력받은 데이터의 각 요소에 함수 f를 적용한 결과를 리턴
+##map()
+##map은 입력받은 데이터의 각 요소에 함수 f를 적용한 결과를 리턴
 def two_time(x):
     return x*2
 
