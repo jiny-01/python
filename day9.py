@@ -111,7 +111,7 @@
 # def divide(x, y):
 #     return x / y
 #
-# print(calculator(4, 8, plus)) #plus() 가 아닌 plus 즉, 함수명만 적어라
+# print(calculator(4, 8, plus))  #plus() 가 아닌 plus 즉, 함수명만 적어라
 # print(calculator(4, 8, minus))
 # print(calculator(4, 8, multiple))
 # print(calculator(4, 8, divide))
@@ -177,8 +177,8 @@
 
 num = int(input("a를 입력하시오: "))
 
-def func(x):
-    if x % 2 == 0:
+def func(a):
+    if a % 2 == 0:
         print("짝수")
     else:
         print("홀수")
