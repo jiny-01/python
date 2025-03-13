@@ -15,9 +15,11 @@ print(fruits)
 # numbers.insert(1,3) #.insert(들어갈 자리, 들어갈 내용) : 특정 자리에 요소 추가(인덱스 넣어서 중간에 추가가능)
 # print(numbers)
 # #print(numbers.pop()) #.pop : 리스트의 마지막 요소가 리턴됨
+
 # #print(numbers.remove("hi")) #.remove: 리스트의 특정 요소 제거
 # print(numbers)
 # del numbers[5] #del 리스트명 [없앨 인덱스 번호]
+
 # print(len(mixed_list)) #리스트의 길이 -> 3 출력: 요소가 3개
 #bools.sort() #리스트 내 요소 작은 것부터, 오름차순 정렬
 #bools.sort(reverse=False) #sort(): 작은 순, 옵션으로 reverse=True 하면 큰 순
@@ -25,7 +27,7 @@ print(fruits)
 #bools.sort(reverse=False)
 # numbers.reverse()
 # print(numbers) #reverse : 정렬없이 그냥 순서를 역순으로 출력함
-# fruits = "-".join(fruits) #.join : 지정한 ""안의 것으로 리스트 내 요소를 결합한 것
+# fruits = "-".join(fruits)  #.join : 지정한 ""안의 것으로 리스트 내 요소를 결합한 것
 # print(fruits)
 
 #쇼핑목록, 입력받아서 하나씩 3가지를 출력
@@ -54,7 +56,7 @@ bools = [True, False, True, True] #불리언 리스트
 # a = ("first", ) #요소가 하나일 떄는 마지막 쉼표찍기!!
 
 # print(colors[1])
-# #colors[1] = "yellow" -> 튜플은 요소 변경 불가능
+# #colors[1] = "yellow" -> 튜플은 요소 변경 불가능 (추가, 삭제, 수정 불가능)
 # print(numbers[0:3]) #튜플 슬라이싱 가능
 # print(numbers.count(1))
 #Q. 튜플은 append 처럼 추가는 안되는지

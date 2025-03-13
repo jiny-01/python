@@ -81,10 +81,13 @@ while True:
         study("전문")
     elif choice == "4":
         review()
+    elif choice == "5":
+        break
+
     else:
         print("다시 선택해 주세요.")
         continue
 
 
 
-#유효성 검증,
+

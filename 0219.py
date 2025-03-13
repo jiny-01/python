@@ -66,8 +66,9 @@
 #a = "Life is too short, You need Python"
 #print(len(a)) # 문자열 길이
 # print(a.count("t", __start:5,__end:10)) # 문자가 몇 개 있는지
-# print(a.index("t")) #앞에서부터 찾는데 해당 문자의 인덱스 번호를 찾아줌
-# #index 는 해당 문자가 없으면 오류를 낸다. - 여기서 종료됨
+
+# print(a.index("t")) #앞에서부터 찾는데 해당 문자의 인덱스 번호를 찾아줌  #띄워쓰기도 인덱스포함
+#####index 는 해당 문자가 없으면 오류를 낸다. - 여기서 종료됨 #####
 # print(a.find("X"))
 # #find : 없어도 오류는 안 나지만 없으면 -1 출력함, 문자열에서만 사용 가능
 # print(a.lower()) #upper, lower: 소문자/대문자로 바꿈

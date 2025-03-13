@@ -53,6 +53,8 @@
 #     print("성인학생이 아닙니다.")
 
 #반복문 - while
+#while 조건  쓰거나  While True 쓰기
+
 # num = 0
 # while num < 10:
 #     num += 1  #조건을 변경하는 코드
@@ -89,6 +91,7 @@
 #     n += 5
 
 # for 문
+##반복해야 할 횟수 정해져 있거나  /  반복해야 할 대상이 명확한 경우
 # fruits = ["사과", "바나나", "체리", "딸기"]  #리스트
 # for fruit in fruits:    #fruit는 지역변수이므로 for 문 밖에서 사용불가
 #     print(fruit) #4개 들어있으므로 4번 반복

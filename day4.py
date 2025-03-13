@@ -13,16 +13,21 @@ profile = {
 # print(profile)
 # profile["job"] = "학생" #요소 추가, 키가 존재하지 않는 것은 추가
 # print(profile)
+
 # del profile["job"] #요소 삭제
 # print(profile)
+
+#키만 출력
 # key_list = list(profile.keys())  #딕셔너리 내 키만 리스트 형태로 출력 list(): 리스트로 형 변환
 # key_list.append("job") #원래의 딕셔너리에 job 키가 생긴 것은 아님
 # print(key_list)
-# profile.values() # 값만 추출
+#값만 출력
+# profile.values()
 # print(profile.values())
 # val_list = list(profile.values()) #값만 추출해서 리스트 형태로 출력한 것
 # print(val_list)
-# profile.items() # 키-값 형태로 다 뽑아내기
+#키-값 형태로 다 뽑아내기
+# profile.items()
 # print(profile.items())
 # item_list = list(profile.items())
 # item_list.append(("job", "학생"))
@@ -68,14 +73,17 @@ profile = {
 #
 # num = {1, 2, 4, 4, 5}
 # num.add(8) #add -> 세트 내 요소 하나씩 추가
+# num.update([10, 11, 12]) #여러 개 요소 한번에 추가 -> update
+
 # num.remove(1) #세트 내 요소 삭제 (없는 걸 지우려고 하면 오류냄)
 # print(num)
 # #num.discard(1) #요소 삭제 (없는 값을 지워도 오류 안냄)
 # #존재하지 않는 값을 지울 때, remove는 오류, discard 는 정상작동
 # print(num)
-# num.update([10, 11, 12]) #여러 개 요소 한번에 추가 -> update
+
 # num.clear() #요소 전체 제거
 # print(num)
+#
 #
 # #empty_set = {} #빈 딕셔너리를 의미함
 # #empty_set = set() #빈 세트를 선언
