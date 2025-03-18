@@ -34,8 +34,8 @@ def check():
     for i in range(0, len(todo_list)):
         # print("요소 : ", todo_list[i])
         # print("값 접근 : ", todo_list["todo_name"])
-        print(f"{i + 1}. 할 일 : {todo_list[i]["todo_name"]}")             #todo = todo_list[i]
-        print(f"완료 상태 : {"완료" if todo_list[i]["todo_complete"] else "미완료"}")                                                                        #todo_name = todo_list["todo_name"]
+        print(f"{i + 1}. 할 일 : {todo_list[i]["todo_name"]}")                #todo = todo_list[i]
+        print(f"완료 상태 : {"완료" if todo_list[i]["todo_complete"] else "미완료"}")                                                                         #todo_name = todo_list["todo_name"]
 
     return todo_list
 
