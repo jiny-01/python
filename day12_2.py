@@ -1,3 +1,16 @@
+#모듈화
+#표준 모듈: math, random, datetime, json, re(정규표현식)
+#정규 표현식: 정해진 규칙대로 표현이 되어있는지 검증 ex) 이메일(아이디@도메인), 전화번호
+#외부 모듈: flask, tensorflow, torch, matplotlib, seaborn, beautifulsoap4,
+#pip freeze>requirements.txt: 필요한 모듈 리스트를 명단화하는 것
+#pip install -r requirements.txt: 다시 가져올 떄 텍스트파일을 읽어오겠다
+
+#API: 인터페이스, 소프트웨어 생성하거나 외부 시스템과 상호작용 -> 요청하면 데이터 전달하는 과정, 인터페이스
+#requests: HTTP요청을 쉽게 보낼 수 있는 모듈
+#beautifulsoup4: 웹페이지에서 원하는 데이터 추출
+
+
+
 #외부모듈: 파이썬에서 제공하는 모듈이 아닌 개발자가 추가로 설치해서 사용하는 모듈
 #pip(pakage installer for python)
 

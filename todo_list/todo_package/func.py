@@ -1,8 +1,9 @@
+#todo_list 에서 쓸 모듈
+
 import json
 
-#"종료" 입력 시 저장하는 함수
 def save_todo(todo_list):      #여기의 todo_list 는 매개변수
-    with open("todo.json", "w", encoding="utf-8") as file:
+    with open("../todo.json", "w", encoding="utf-8") as file:
         json.dump(todo_list, file, indent=4, ensure_ascii=False)
 
     print("저장되었습니다!")
@@ -28,7 +29,7 @@ def add():
 
 ##2. 할 일 조회하는 함수
 def check():
-    with open("todo.json", "r", encoding="utf-8") as file:
+    with open("../todo.json", "r", encoding="utf-8") as file:
         todo_list = list(json.load(file))
 
     for i in range(0, len(todo_list)):
@@ -73,33 +74,3 @@ def delete():
         del todo_list[choice_todo - 1]
 
     save_todo(todo_list)
-
-
-
-#메뉴 선택 - 반복문 이용
-while True:
-    print("=======메뉴======")
-    print("""
-        1. 할 일 추가
-        2. 할 일 조회
-        3. 할 일 수정
-        4. 할 일 삭제
-    """)
-
-    choice = input("메뉴를 선택해 주세요 : ")
-    if choice == "1":
-        add()
-    elif choice == "2":
-        check()
-    elif choice == "3":
-        update()
-    elif choice == "4":
-        delete()
-    else:
-        print("다시 메뉴를 선택해 주세요")
-        continue
-
-
-
-
-
