@@ -21,6 +21,8 @@ print(su.to_uppercase("Hello World"))
 #파이썬: 웹 개발 언어가 아님
 
 #파이썬으로 할 수 있는 것들: 크롤링-beautiful soup, 데이터분석(엑셀 등 시각화)+기능 추가, RPG 게임만들기,,,파이게임, yolo객체탐지
+#pygame 프로젝트 - 구글에 쳐봐서 만들기
+
 
 
 
