@@ -114,6 +114,6 @@ class Computer:
         print(f"전원 켜기:{on} 전원 끄기:{off} ")
 
 com1 = Computer("apple", 13)
-com1.on()
+com1.on("전원 켜짐", "전원 꺼짐")
 
 

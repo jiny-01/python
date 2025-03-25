@@ -1,0 +1,76 @@
+*Day15
+
+-상속
+: 부모 클래스의 속성과 메소드를 자식 클래스가 물려받음
+
+부모클래스 = 슈퍼 클래스
+자식 클래스 = 서브 클래스
+
+class Animal:
+   def __init__(self, name):
+   self.name = name  #공통 속성
+
+
+   def eat(self):
+   print(f"{self.name} 가 밥을 먹습니다.)
+
+
+
+
+
+
+class Dog(Animal):
+    def bark(self):  #추가 기능
+    print(f"{self.name} 가 멍멍 짖습니다.")
+
+*Animal, 즉 부모 클래스의 속성과 메소드를 가짐 -> eat, sleep (공통속성), balk(짖다)
+
+ex) "말티즈" 가 있을 때, 부모인 Animal, Dog 를 상속받을 수 있다.
+
+
+dog = Dog("바둑이")
+dog.eat() #바둑이가 밥을 먹습니다.
+dog.sleep()
+
+
+-super() : 부모클래스를 호출하는 것
+
+class Animal:
+   def __init__(self, name):
+   self.name = name  #공통 속성
+
+
+
+class Dog(Animal):
+    def __init__(self, name, color)
+    Animal.__init__(self, name)      ==  super().__init__(self, name)   ==    self.name = name  
+    def bark(self):  #추가 기능
+    print(f"{self.name} 가 멍멍 짖습니다.")
+
+
+-메소드 오버라이딩
+: 부모 클래스의 메소드를 자식 클래스에서 재정의하는 것
+: 같은 이름의 메소드를 자식 클래스에서 다시 정의하여 동작을 변경하는 것
+
+class Car:                                                                                         class ElecCar(Car):
+  def drive(self):                                               ====>                             def drive(self):   #메서드 오버라이딩           
+ print("기름을 이용해 달립니다.")                                                            print("전기를 이용해 달립니다.
+                                                                         
+              
+
+
+
+
+
+
+-다중상속
+:두 개 이상의 부모 클래스로부터 속성과 메소드를 상속받는 것
+즉, 자식 클래스가 여러 부모 클래스로부터 기능을 물려받을 수 있음
+코드 재사용성 향상, 다양한 기능 조합 가능
+
+
+
+
+
+
+
