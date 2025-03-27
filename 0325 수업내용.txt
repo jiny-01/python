@@ -13,6 +13,10 @@ class Animal:
 
    def eat(self):
    print(f"{self.name} 가 밥을 먹습니다.)
+ 
+
+   def sleep(self):
+   print(f"{self.name} 가  잠을 잡니다.)
 
 
 
@@ -43,7 +47,7 @@ class Animal:
 
 class Dog(Animal):
     def __init__(self, name, color)
-    Animal.__init__(self, name)      ==  super().__init__(self, name)   ==    self.name = name  
+    Animal.__init__(self, name)      ==   super().__init__(self, name)   ==    self.name = name  
     def bark(self):  #추가 기능
     print(f"{self.name} 가 멍멍 짖습니다.")
 
@@ -53,20 +57,63 @@ class Dog(Animal):
 : 같은 이름의 메소드를 자식 클래스에서 다시 정의하여 동작을 변경하는 것
 
 class Car:                                                                                         class ElecCar(Car):
-  def drive(self):                                               ====>                             def drive(self):   #메서드 오버라이딩           
+  def drive(self):                                               ====>                           def drive(self):    #메서드 오버라이딩           
  print("기름을 이용해 달립니다.")                                                            print("전기를 이용해 달립니다.
                                                                          
               
 
 
-
-
-
-
--다중상속
+-다중상속 
 :두 개 이상의 부모 클래스로부터 속성과 메소드를 상속받는 것
 즉, 자식 클래스가 여러 부모 클래스로부터 기능을 물려받을 수 있음
 코드 재사용성 향상, 다양한 기능 조합 가능
+
+
+->다중상속으로 생기는 문제점을 MRO 로 해결
+
+
+<예제 - 하이브리드 자동차>
+내가 원한 것
+차 
+전기차(차), 내연기관차(차)
+하이브리드 (전기차, 내연기관차)
+
+__init__
+전기차 한테 속성값을 넣어주려고 super 를 썼더니 전기차 init 에 있던 super 가 Car 가 나올 것으로 예상
+
+나는 차라고 생각해서 속성값을 모델, 브랜드 넣었는데 슈퍼가 내연기관???    연료량 에러
+
+mro 하이브리드 - 전기차 - 내연기관 - 차 - 객체
+
+전기차의 부모를 차라고 생각했지만 실제는 내연기관이 나오는 상황
+
+
+--해결법--
+전기차, 내연기관 상속 없앰
+차는 그냥 하이브리드에 바로 상속
+
+하브(차, 전기차, 내연기관)
+부모 순서대로 초기화
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
