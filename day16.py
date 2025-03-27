@@ -214,18 +214,18 @@ my_dic = {1: "사과", 2: "바나나", 3: "딸기", 4: "포도", 5: "수박"}
 
 """
 
-my_dic = {1: "사과", 2: "바나나", 3: "딸기", 4: "포도", 5: "수박"}
-try:
-    key = int(input("키를 숫자로 입력하세요 : "))
-    result = my_dic[index]
-    if age < 0 or age > 150:
-       raise AgeException()  # Exception 에러 띄우고, 메시지는 문자열
-except AgeException as e:    # e: 에러메시지
-    print(e)
-else:
-    print(age)
-finally:
-        print("끝")
+# my_dic = {1: "사과", 2: "바나나", 3: "딸기", 4: "포도", 5: "수박"}
+# try:
+#     key = int(input("키를 숫자로 입력하세요 : "))
+#     result = my_dic[index]
+#     if age < 0 or age > 150:
+#        raise AgeException()  # Exception 에러 띄우고, 메시지는 문자열
+# except AgeException as e:    # e: 에러메시지
+#     print(e)
+# else:
+#     print(age)
+# finally:
+#         print("끝")
 
 
 
