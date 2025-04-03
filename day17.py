@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 from PIL.ImageMath import lambda_eval
 
-"""
+
 ##기본 창 구성
 root = tk.Tk()  #창 생성
 root.title("GUI 프로그래밍 실습")  #창 제목(타이틀)
@@ -56,7 +56,7 @@ r3.pack(side="top")
 
 root.mainloop()   #최종 실행 -> 가장 마지막에 있어야함
 
-"""
+
 
 #===================================================================================
 # #레이아웃
@@ -136,7 +136,7 @@ signup_btn.grid(row=3, column=2)
 # try: id_entry
 #
 # except NotImplementedError
-        print("값을 입력해주세요")
+#         print("값을 입력해주세요")
 #
 #
 
