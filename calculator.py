@@ -32,13 +32,12 @@ def calculate_result():
 
 
 #DEL 버튼 메소드 - 하나씩 지우기
-def del():
-    cal_entry.delete(0, tk.END)
-
-
-
-
-
+def remove():
+    content = cal_entry.get()
+    if content:
+        new_content = content[:-1]
+        cal_entry.delete(0, tk.END)
+        cal_entry.insert(0, new_content)
 
 
 
