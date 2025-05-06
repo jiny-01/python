@@ -61,9 +61,9 @@ result_btn.grid(row=4, column=3)
 clear_btn = tk.Button(root, text="clear", command=clear_all, width=20, height=5)
 clear_btn.grid(row=5, column=1, columnspan=2)
 
-#del 하나씩 삭제 버튼
-del_btn = tk.Button(root, text="DEL", command=del, width=10, height=5)
-del_btn.grid(row= 5, column=3)
+# #del 하나씩 삭제 버튼
+# del_btn = tk.Button(root, text="DEL", command=del(), width=10, height=5)
+# del_btn.grid(row= 5, column=3)
 
 
 
